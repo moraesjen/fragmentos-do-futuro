@@ -1,0 +1,134 @@
+
+print("Fragmentos de um Futuro Perdido")
+print("Ano de 2061. A Terra está devastada após um vírus misterioso dizimar a humanidade.")
+print("Você é um cientista sobrevivente, com memórias fragmentadas e uma missão que pode salvar ou condenar o mundo.")
+
+print("\nVocê acorda em um laboratório destruído. Sua cabeça lateja e pedaços da memória começam a voltar.")
+print("Primeira decisão: O que você faz?")
+print("a) Vasculhar o laboratório em busca de pistas.")
+print("b) Sair imediatamente e procurar seu antigo parceiro.")
+
+escolha1 = input("Escolha (a/b): ").lower()
+
+if escolha1 == "a":
+    print("\nVocê encontra registros dos seus últimos experimentos e descobre coordenadas de uma instalação militar.")
+    print("Segunda decisão: Você...")
+    print("a) Segue para a instalação militar em busca de recursos.")
+    print("b) Tenta entrar em contato com outros sobreviventes pela rádio.")
+
+    escolha2 = input("Escolha (a/b): ").lower()
+
+    if escolha2 == "a":
+        print("\nA instalação está fortemente vigiada por drones do governo.")
+        print("Terceira decisão: Você...")
+        print("a) Tenta se infiltrar furtivamente.")
+        print("b) Recua e procura outro caminho.")
+
+        escolha3 = input("Escolha (a/b): ").lower()
+
+        if escolha3 == "a":
+            print("\nVocê consegue entrar, mas ativa um alarme.")
+            print("Seu antigo parceiro aparece de repente, ele estava escondido ali.")
+            print("Quarta decisão: Ele oferece uma chance de usar a máquina do tempo. Você aceita?")
+            print("a) Sim, tentar mudar o passado.")
+            print("b) Não, focar em criar a cura no presente.")
+
+            escolha4 = input("Escolha (a/b): ").lower()
+
+            if escolha4 == "a":
+                print("\nVocês ativam a máquina... mas algo dá errado.")
+                print("Você é lançado para um futuro ainda pior, onde a humanidade já não existe.")
+                print("FINAL RUIM: A tentativa de mudar o passado falhou e piorou tudo.")
+            elif escolha4 == "b":
+                print("\nVocês combinam esforços e usam os dados recuperados para sintetizar uma vacina.")
+                print("Após semanas de trabalho, conseguem imunizar um pequeno grupo.")
+                print("FINAL BOM: Um novo começo para a humanidade.")
+            else:
+                print("Escolha inválida.")
+
+        elif escolha3 == "b":
+            print("\nAo tentar fugir, você é capturado pelos drones do governo.")
+            print("Eles te levam para um centro de interrogatório.")
+            print("FINAL NEUTRO: Você sobrevive, mas perde sua liberdade.")
+        else:
+            print("Escolha inválida.")
+
+    elif escolha2 == "b":
+        print("\nVocê consegue sinal na rádio e recebe uma resposta.")
+        print("Uma comunidade secreta de sobreviventes te convida.")
+        print("Terceira decisão: Você...")
+        print("a) Aceita o convite e segue para a comunidade.")
+        print("b) Desconfia e decide investigar antes.")
+
+        escolha3 = input("Escolha (a/b): ").lower()
+
+        if escolha3 == "a":
+            print("\nChegando lá, você descobre que eles estão trabalhando em uma cura coletiva.")
+            print("Com sua ajuda, aceleram o processo e salvam centenas de pessoas.")
+            print("FINAL BOM: Uma chance real de reconstruir a civilização.")
+        elif escolha3 == "b":
+            print("\nVocê descobre que era uma armadilha dos soldados do governo.")
+            print("Você é capturado e nunca mais ouvido.")
+            print("FINAL RUIM: A busca pela verdade te custou a vida.")
+        else:
+            print("Escolha inválida.")
+
+    else:
+        print("Escolha inválida.")
+
+elif escolha1 == "b":
+    print("\nVocê parte em busca de seu antigo parceiro.")
+    print("Após horas, o encontra isolado, cercado de equipamentos estranhos.")
+    print("Ele te revela que aperfeiçoou uma máquina do tempo, mas ela não é estável.")
+    print("Segunda decisão: Você...")
+    print("a) Concorda em usar a máquina para impedir o surgimento do vírus.")
+    print("b) Sugere trabalhar juntos em uma vacina no presente.")
+
+    escolha2 = input("Escolha (a/b): ").lower()
+
+    if escolha2 == "a":
+        print("\nVocês ativam a máquina e viajam para 2020.")
+        print("Terceira decisão: Você encontra o laboratório onde tudo começou.")
+        print("a) Destruir o laboratório imediatamente.")
+        print("b) Roubar os dados e buscar outra solução.")
+
+        escolha3 = input("Escolha (a/b): ").lower()
+
+        if escolha3 == "a":
+            print("\nA explosão impede o surgimento do vírus, mas altera outras linhas do tempo.")
+            print("O mundo volta ao normal, mas com estranhas mudanças históricas.")
+            print("FINAL BOM: O vírus nunca existiu, mas... algo está diferente.")
+        elif escolha3 == "b":
+            print("\nVocê descobre que o vírus não foi um acidente, mas sim uma arma.")
+            print("Ao retornar, traz dados suficientes para expor e derrubar o governo autoritário.")
+            print("FINAL EXCELENTE: Você não só salva a humanidade, como também liberta as pessoas da opressão.")
+        else:
+            print("Escolha inválida.")
+
+    elif escolha2 == "b":
+        print("\nVocês começam a trabalhar na vacina.")
+        print("De repente, são atacados por agentes do governo que querem silenciá-los.")
+        print("Terceira decisão: Você...")
+        print("a) Luta contra eles.")
+        print("b) Foge e tenta salvar os dados.")
+
+        escolha3 = input("Escolha (a/b): ").lower()
+
+        if escolha3 == "a":
+            print("\nA luta é intensa, mas vocês são capturados.")
+            print("Os dados são destruídos.")
+            print("FINAL RUIM: O governo vence, e a esperança morre com vocês.")
+        elif escolha3 == "b":
+            print("\nVocê foge levando os dados, consegue transmiti-los para outros grupos de resistência.")
+            print("Graças a você, a cura é desenvolvida por cientistas escondidos.")
+            print("FINAL BOM: A humanidade sobrevive e o governo perde força.")
+        else:
+            print("Escolha inválida.")
+
+    else:
+        print("Escolha inválida.")
+
+else:
+    print("Escolha inválida.")
+
+print("\nFim da Jornada")
